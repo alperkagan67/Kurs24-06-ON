@@ -1,0 +1,44 @@
+    body {
+        background-color: #c80f0c;
+        /* Ein helles Blau als Grundfarbe */
+        font-family: Arial, sans-serif;
+        margin: 0;
+
+        padding: 0;
+    }
+
+    h1 {
+        color: #ff4500;
+        /* Kräftiges Orange für die Überschrift */
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        width: 250px;
+        border: 3px solid #ff4500;
+        /* Rahmen um das Bild */
+        border-radius: 10px;
+    }
+
+    div {
+        background-color: #ffcccb;
+        /* Helles Rot für den Hintergrund */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    ul {
+        color: #ff4500;
+        /* Farbe der Listenpunkte */
+        list-style-type: square;
+        /* Aufzählungszeichen in quadratischer Form */
+    }
