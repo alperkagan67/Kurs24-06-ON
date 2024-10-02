@@ -17,11 +17,15 @@ header {
 
 header h1 {
     margin: 0;
+    text-align: center;
 }
 
 header ul {
-    list-style-type: none;
+list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -44,11 +48,17 @@ section {
     padding: 20px;
     background-color: #ECF0F1;
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-grow: 1;
+    
+     
 }
 
 section h2 {
     font-size: 24px;
     color: #2C3E50;
+    text-align: center;
 }
 
 section p {
@@ -96,37 +106,74 @@ section img {
 
 /* Footer */
 footer {
-    background-color: #0a0c0e;
+background-color: #0a0c0e;
     color: rgb(224, 247, 18);
     padding: 20px;
     text-align: center;
+    margin-top: auto;
+   
+    width: 100%;
+    
+    
 }
 
+/* --- ÄNDERUNG: Listenstyling für die Aufzählungspunkte --- */
 ul {
-    padding-left: 0;
+    padding-left: 40px; 
     margin-left: 0;
-    list-style-position: inside;
-  
+    list-style-position: outside;
+    text-align: left; 
+}
+
+ul li {
+    margin-bottom: 10px; 
+    line-height: 1.6; 
 }
 
 footer p {
     margin: 0;
+    bottom: 0;
+    position: relative;
+    
 }
 
 footer a {
-    color: #d8db0f;
-    text-decoration: none;
+    background-color: #0a0c0e;
+        color: rgb(224, 247, 18);
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        /* Position am Seitenende erzwingen */
+        position: relative;
+        /* ÄNDERUNG: Stellt sicher, dass der Footer unten bleibt */
+        bottom: 0;
 }
 
 footer a:hover {
     text-decoration: underline;
+   
+}
+
+
+.UU1 {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.uber-uns {
+
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+
 }
 
 
 
 /* Styling für das Formular */
 form {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     /* Zentriert das Formular auf der Seite */
     padding: 20px;
