@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktieren Sie uns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header (Kopfzeile) -->
+    <header>
+        <h1>Kontaktieren Sie uns</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="startseite.html">Startseite</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </header>
+
+    <!-- Section -->
+    <form action="submit_form.php" method="post">
+    <section>
+        <h2>Kontakt</h2>
+        <p>
+            Wir freuen uns, von Ihnen zu hören! Nutzen Sie das untenstehende Formular oder kontaktieren Sie uns direkt
+            per E-Mail oder Telefon.
+        </p>
+
+        <h3>Kontaktdaten</h3>
+        <p>
+            <strong>Adresse:</strong> Musterstraße 123, 12345 Musterstadt<br>
+            <strong>Telefon:</strong> +49 123 456789<br>
+            <strong>E-Mail:</strong> info@meinewebseite.de
+        </p>
+
+        <h3>Schreiben Sie uns</h3>
+        <!--<form action="submit_form.php" method="post">-->
+            <label for="name">Ihr Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Ihr Name"><br><br>
+
+            <label for="email">Ihre E-Mail-Adresse:</label><br>
+            <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse"><br><br>
+
+            <label for="nachricht">Ihre Nachricht:</label><br>
+            <textarea id="nachricht" name="nachricht" rows="5" placeholder="Ihre Nachricht"></textarea><br><br>
+
+            <button type="submit">Nachricht senden</button>
+        </form>
+    </section>
+
+    <!-- Footer (Fusszeile) -->
+    <footer>
+        <p>&copy; 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
+        <a href="impressum.html">Impressum</a> |
+        <a href="datenschutz.html">Datenschutz</a>
+    </footer>
+
+</body>
+
+</html>
