@@ -1,0 +1,187 @@
+/* Allgemeine Stile */
+html {
+    font-size: 16px;
+    /* 1rem = 16px */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main-Bereich */
+main {
+    background-color: white;
+    padding: 2rem;
+    /* Vergrößertes Padding für mehr Raum auf mobilen Geräten */
+    margin: 1.5rem;
+    max-width: 45rem;
+    /* ca. 720px */
+    width: 100%;
+    box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+}
+
+h2,
+h3 {
+    color: #333;
+}
+
+.produktbeschreibung {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.produktbeschreibung p {
+    margin: 1rem 0;
+}
+
+.produkt-details {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    /* Größeres Padding für besseren Abstand */
+    border-radius: 0.5rem;
+}
+
+.produkt-details .detail {
+    margin-bottom: 1rem;
+    /* Abstand zwischen den Details erhöht */
+    font-size: 1rem;
+}
+
+.preis {
+    font-size: 1.5rem;
+    /* Preis größer und auffälliger */
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Produktbilder */
+.produktbilder {
+    margin-top: 2rem;
+    /* Größerer Abstand über den Bildern */
+}
+
+.bilder {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    /* Vergrößertes Gap zwischen den Bildern */
+}
+
+.bilder img {
+    max-width: 30%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Kaufen-Button */
+.kaufen {
+    margin-top: 2rem;
+    /* Größerer Abstand zum Button */
+    text-align: center;
+}
+
+.kaufen-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 1.25rem 2.5rem;
+    /* Größeres Padding für eine bessere Bedienbarkeit */
+    font-size: 1.25rem;
+    /* Größere Schrift im Button */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.kaufen-btn:hover {
+    background-color: #ff8533;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries für Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .bilder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bilder img {
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .kaufen-btn {
+        width: 100%;
+        padding: 1rem 0;
+        /* Leicht kleinerer Button auf Tablets */
+    }
+}
+
+/* Smartphones (max. Breite: 480px) */
+@media (max-width: 480px) {
+    main {
+        margin: 0.5rem;
+        padding: 1rem;
+        /* Größeres Padding für bessere Abstände */
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+        /* Kleinere Schriftgröße für Header */
+    }
+
+    .produktbeschreibung p,
+    .produkt-details .detail {
+        font-size: 0.9rem;
+        /* Etwas kleinere Schriftgrößen für die Produktbeschreibung */
+    }
+
+    .kaufen-btn {
+        font-size: 1.125rem;
+        padding: 0.75rem 1.5rem;
+        /* Kleinere Button-Größe */
+        width: 100%;
+    }
+
+    .bilder img {
+        max-width: 100%;
+    }
+}

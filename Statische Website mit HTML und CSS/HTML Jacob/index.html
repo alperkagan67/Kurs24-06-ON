@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktseite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>JedeMenge.de</h1>
+    </header>
+
+    <!-- Main-Bereich -->
+    <main>
+        <!-- Produktbeschreibung -->
+        <section class="produktbeschreibung">
+            <h2>Produktbeschreibung</h2>
+            <p><strong>Das Super coole Ding</strong> ist das neueste und beste Gerät, um dein Leben einfacher zu machen.
+                Es ist leicht, effizient und unglaublich leistungsstark.</p>
+            <div class="produkt-details">
+                <div class="detail"><strong>Farbe:</strong> Schwarz</div>
+                <div class="detail"><strong>Gewicht:</strong> 1.2 kg</div>
+                <div class="detail"><strong>Batterielaufzeit:</strong> 10 Stunden</div>
+            </div>
+            <p class="preis">Preis: <strong>999,99 €</strong></p>
+        </section>
+
+        <!-- Produktbilder -->
+        <section class="produktbilder">
+            <h3>Bilder des Produkts</h3>
+            <div class="bilder">
+                <img src="Datenanalyse.jpg" alt="Super cooles Ding - Ansicht 1">
+                <img src="securityinfrastructure.png" alt="Super cooles Ding - Ansicht 2">
+                <img src="transport.jpg" alt="Super cooles Ding - Ansicht 3">
+            </div>
+        </section>
+
+        <!-- Kaufen-Button -->
+        <section class="kaufen">
+            <button class="kaufen-btn" id="buyButton">Jetzt kaufen</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 JedeMenge Inc.</p>
+    </footer>
+
+    <!-- JavaScript für das Pop-up-Fenster -->
+    <script>
+        document.getElementById("buyButton").addEventListener("click", function () {
+            alert("Danke, dass Sie das Produkt gekauft haben!");
+        });
+    </script>
+</body>
+
+</html>
