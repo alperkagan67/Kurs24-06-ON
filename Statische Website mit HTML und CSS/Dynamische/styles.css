@@ -1,0 +1,146 @@
+
+
+h2 {
+    color: blue;
+    font-size: 24px;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+/* Allgemeines Styling für die Seite BY GPT AUSKOMMENTIEREN BITTE */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Button-Styling */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff7e5f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #feb47b;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Input-Styling */
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Boxen für Aufgabe 8 */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Liste Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #ff7e5f;
+    cursor: pointer;
+}
+
+/* Dynamisches Element (Aufgabe 4) */
+#dynamic-element p {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #1f4037;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Input und Button für Aufgabe 7 */
+#input-text {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation für Übergänge */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#show-input-button {
+    animation: fadeIn 1s ease-in-out;
+}
+
+p {
+    animation: fadeIn 1s ease-in-out;
+}
