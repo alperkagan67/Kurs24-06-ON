@@ -1,0 +1,11 @@
+.footbar {
+background-color: red;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
