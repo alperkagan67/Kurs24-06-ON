@@ -1,0 +1,22 @@
+/*button Buttontest - mache einen schönen button mit gutem style in Butttonreest.jsx .buttonteest*/
+.buttontest{
+    /* Stelle sicher, dass der Button sichtbar ist */
+        /*Mittig, klein, curser, farbe wenn man drüber streicht*/
+    background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;  
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 4px 2px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.3s ease-in-out;
+        outline: none;
+        position: relative;
+        z-index: 5  ;
+     
+   
+    }

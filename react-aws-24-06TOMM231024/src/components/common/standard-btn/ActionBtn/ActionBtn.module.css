@@ -1,0 +1,34 @@
+/*einen Kunterbunten Button. mit allen möglichen eigenschaften.*/
+.btnAction {
+    background-color: #4CAF50; /* Standard-Grün */
+    color: white; /* Textfarbe auf Weiß */
+    padding: 15px 32px; /* Rahmenabstand */
+    text-align: center; /* Text zentrieren */
+    text-decoration: none; /* Keine Dekoration */
+    display: inline-block; /* Inline-Element anzeigen */
+    font-size: 16px; /* Schriftgröße */
+    margin: 4px 2px; /* Abstand zwischen Button */
+    border: none; /* Rahmen entfernen */
+    cursor: pointer; /* Mauszeiger ändern */
+}
+
+/* Hover-Effekt */
+
+.btnAction:hover {
+    background-color: #45a049; /* Grün auf Hover */
+}
+
+/* Click-Effekt */
+
+.btnAction:active {
+    background-color: #45a049; /* Grün auf Click */
+    transform: translateY(4px); /* Bewegung nach unten */
+}
+
+/* Responsive-Design */
+
+@media screen and (max-width: 600px) {
+    .btnAction {
+        width: 100%; /* Button breit auf volle Breite */
+    }
+}
